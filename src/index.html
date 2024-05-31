@@ -2,26 +2,42 @@
 
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" type="image/png" href="./assets/images/cooking-logo-black.png?width=16px">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/cooking-logo-black.png?width=16px">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/cooking-logo-black.png?width=32px">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/cooking-logo-black.png?width=96px">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/cooking-logo-black.png?width=180px" />
+    <title>Concurso Popular de Cocina Casera</title>
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
     <title>UOC Boilerplate</title>
   </head>
   <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
+    <include src="./views/header.html"></include>
+    <main class="block w-auto bg-white xl:h-auto xl:w-full xl:grid xl:grid-rows-main xl:grid-cols-main">
+      <h1 class="font-bold text-3xl text-green-700 z-10 xl:row-start-1 xl:row-span-2 pt-4 pb-4 xl:col-start-3 xl:col-span-4 xl:pt-8">Concurso Popular Cocina Saludable</h1>
+      <h2 class="pt-4 pb-4 xl:row-start-1 xl:row-span-4 xl:col-start-6 xl:col-span-2 xl:p-4 font-bold text-2xl text-black xl:[writing-mode:vertical-lr]">Creatividad & Salud & Diversión</h2>
+      <hr class="xl:row-start-2 xl:col-start-4 xl:col-span-2 xl:invisible">
+      <p class="mt-4 mb-4 xl:row-start-2 xl:col-start-3 xl:col-span-3 z-10 bg-white xl:p-12 xl:mt-auto xl:mb-auto text-lg xl:shadow-2xl xl:rounded-sm xl:opacity-90">Apúntate al concurso de Cocina Creativa Saludable y agudíza tu creatividad siempre pensando en el la salud. Ven a divertirte con nosotros. Somos lo que comemos.</p>
+      <a class="mt-8 mb-8 xl:col-start-5 xl:col-span-1 text-right text-green-700 border-t-2 border-t-green-700" href="">más información</a>
+      <img class="h-auto w-11/12 text-center mt-4 mb-4 ml-auto mr-auto xl:row-start-1 xl:row-span-3 xl:col-start-1 xl:col-span-3 xl:h-full xl:w-full xl:object-cover" src="./assets/images/concurs_cuina.jpg" alt="Concurso de Cocina">
+      <div class="z-10 flex row-start-3 row-span-2 col-start-1 m-0 bg-white opacity-75">
+        <p class="w-full mt-4 mr-auto mb-4 ml-auto text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+          </svg>
+         Campus de l'Alimentació de Torribera<br>Universitat de Barcelona<br>Prat de la Riba 171<br>Santa Coloma de Grameneta</p>
+      </div>
+      <div class="pt-4 pb-4 text-center xl:row-start-4 xl:col-start-2 xl:col-span-2">
+      <form action="">
+        <button type="submit" class="btn-standard">Inscríbete</button>
+      </form>     
     </div>
-    <include src="./views/footer.html"></include>
-    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+    </main>
+      <include src="./views/footer.html"></include>
+      <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
   </body>
 </html>

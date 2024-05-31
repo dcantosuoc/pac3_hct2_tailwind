@@ -1,0 +1,11 @@
+@layer base {
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply flex flex-col m-0 p-0 font-sans text-base text-black leading-6 bg-white;
+  }
+
+}

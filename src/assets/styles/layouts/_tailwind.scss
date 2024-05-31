@@ -1,0 +1,56 @@
+
+@layer components {
+  .btn-standard {
+    @apply mt-4 mb-4 bg-green-700 ml-auto mr-auto text-white font-bold rounded pl-5 pr-5 pt-2 pb-2 hover:shadow-xl;
+  }
+
+  .container-personal {
+    @apply container mx-auto sm:w-11/12 xl:max-w-6xl;
+  }
+
+  .card-container {
+    @apply block items-center md:flex md:flex-wrap md:justify-around;
+  }
+
+  .card-main {
+    @apply min-w-72 p-4 text-center rounded-md shadow-md md:max-w-[25%] md:m-8;
+  }
+
+  .card-title {
+    @apply text-3xl font-bold;
+  }
+
+  .card-image {
+    @apply w-4/5 h-auto items-center text-center mx-auto;
+  }
+
+  .content {
+    @apply p-8 mt-4 bg-white rounded-3xl shadow-md;
+  }
+
+  .card-start {
+    @apply text-yellow-500 w-5 h-auto fill-current border-black inline;
+  }
+
+  .title {
+    @apply mt-10 mb-8 font-bold leading-8 text-green-700 text-left;
+  }
+
+  .title-h1 {
+    @apply pb-10 text-3xl font-bold leading-10 text-center sm:text-4xl;
+  }
+
+  .title-h2 {
+    @apply pb-7 text-2xl leading-7 sm:text-3xl sm:leading-8
+  }
+
+  .title-h3 {
+    @apply pb-6 text-xl leading-6 sm:text-2xl sm:leading-7;
+  }
+
+  .title-h4 {
+    @apply pb-5 text-lg leading-5 text-center sm:text-xl sm:leading-6
+  }
+
+}
+

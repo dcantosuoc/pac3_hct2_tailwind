@@ -1,0 +1,625 @@
+.photo-gallery {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.photo-gallery .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1554px;
+  position: relative;
+}
+
+.photo-gallery .footer {
+  position: absolute;
+  width: 1440px;
+  height: 417px;
+  top: 1137px;
+  left: 0;
+  background-color: transparent;
+}
+
+.photo-gallery .overlap {
+  width: 1442px;
+  position: relative;
+  height: 417px;
+}
+
+.photo-gallery .group {
+  position: absolute;
+  width: 1442px;
+  height: 417px;
+  top: 0;
+  left: 0;
+}
+
+.photo-gallery .overlap-group {
+  width: 1440px;
+  background-color: #2c2c2c;
+  position: relative;
+  height: 417px;
+}
+
+.photo-gallery .line {
+  position: absolute;
+  width: 1440px;
+  height: 1px;
+  top: 346px;
+  left: 0;
+  object-fit: cover;
+}
+
+.photo-gallery .element-landing-all {
+  position: absolute;
+  height: 22px;
+  top: 371px;
+  left: 591px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: #c8c8c880;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.photo-gallery .img {
+  position: absolute;
+  width: 145px;
+  height: 94px;
+  top: 58px;
+  left: 116px;
+  object-fit: cover;
+}
+
+.photo-gallery .element {
+  position: absolute;
+  width: 193px;
+  height: 64px;
+  top: 58px;
+  left: 1035px;
+}
+
+.photo-gallery .FOLLOW-US {
+  position: absolute;
+  height: 19px;
+  top: 0;
+  left: 1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.photo-gallery .facebook {
+  position: absolute;
+  width: 10px;
+  height: 19px;
+  top: 43px;
+  left: 1px;
+}
+
+.photo-gallery .twitter {
+  position: absolute;
+  width: 22px;
+  height: 17px;
+  top: 46px;
+  left: 51px;
+}
+
+.photo-gallery .linked-in {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 44px;
+  left: 113px;
+}
+
+.photo-gallery .shape {
+  position: absolute;
+  width: 20px;
+  height: 18px;
+  top: 1px;
+  left: 0;
+}
+
+.photo-gallery .pininterest {
+  position: absolute;
+  width: 14px;
+  height: 19px;
+  top: 45px;
+  left: 173px;
+}
+
+.photo-gallery .group-2 {
+  position: absolute;
+  width: 625px;
+  height: 229px;
+  top: 58px;
+  left: 360px;
+}
+
+.photo-gallery .text-wrapper {
+  position: absolute;
+  width: 117px;
+  height: 24px;
+  top: 149px;
+  left: 291px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.photo-gallery .text-wrapper-2 {
+  position: absolute;
+  width: 181px;
+  height: 24px;
+  top: 205px;
+  left: 291px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.photo-gallery .text-wrapper-3 {
+  position: absolute;
+  width: 82px;
+  height: 24px;
+  top: 45px;
+  left: 1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.photo-gallery .text-wrapper-4 {
+  position: absolute;
+  width: 56px;
+  height: 24px;
+  top: 85px;
+  left: 1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.photo-gallery .text-wrapper-5 {
+  position: absolute;
+  width: 61px;
+  height: 24px;
+  top: 125px;
+  left: 1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.photo-gallery .text-wrapper-6 {
+  position: absolute;
+  width: 94px;
+  height: 24px;
+  top: 165px;
+  left: 1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.photo-gallery .text-wrapper-7 {
+  position: absolute;
+  width: 64px;
+  height: 24px;
+  top: 205px;
+  left: 1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.photo-gallery .text-wrapper-8 {
+  position: absolute;
+  width: 103px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.photo-gallery .text-wrapper-9 {
+  width: 75px;
+  height: 20px;
+  top: 0;
+  left: 260px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+}
+
+.photo-gallery .vector {
+  position: absolute;
+  width: 11px;
+  height: 16px;
+  top: 45px;
+  left: 261px;
+}
+
+.photo-gallery .group-3 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 149px;
+  left: 261px;
+}
+
+.photo-gallery .group-4 {
+  position: absolute;
+  width: 16px;
+  height: 11px;
+  top: 210px;
+  left: 261px;
+}
+
+.photo-gallery .element-sample-street {
+  position: absolute;
+  width: 314px;
+  top: 45px;
+  left: 291px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+}
+
+.photo-gallery .component {
+  position: absolute;
+  width: 1440px;
+  height: 102px;
+  top: 0;
+  left: 0;
+}
+
+.photo-gallery .group-5 {
+  position: absolute;
+  width: 70px;
+  height: 44px;
+  top: 29px;
+  left: 135px;
+}
+
+.photo-gallery .main {
+  position: absolute;
+  width: 68px;
+  top: 44px;
+  left: 546px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #333333;
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.photo-gallery .gallery {
+  position: absolute;
+  width: 66px;
+  top: 44px;
+  left: 663px;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 12px;
+  font-family: "Roboto", Helvetica;
+  color: #333333;
+  white-space: nowrap;
+}
+
+.photo-gallery .projects {
+  position: absolute;
+  width: 80px;
+  top: 44px;
+  left: 789px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #333333;
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.photo-gallery .contacts {
+  width: 79px;
+  top: 44px;
+  left: 1092px;
+  font-weight: 400;
+  color: #333333;
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 12px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+}
+
+.photo-gallery .certifications {
+  position: absolute;
+  width: 127px;
+  top: 44px;
+  left: 920px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #333333;
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.photo-gallery .rectangle {
+  position: absolute;
+  width: 68px;
+  height: 1px;
+  top: 60px;
+  left: 535px;
+  background-color: var(--gray-1);
+}
+
+.photo-gallery .rectangle-2 {
+  position: absolute;
+  width: 68px;
+  height: 1px;
+  top: 40px;
+  left: 535px;
+  background-color: var(--gray-1);
+}
+
+.photo-gallery .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 165px;
+  left: 135px;
+}
+
+.photo-gallery .text-wrapper-10 {
+  position: relative;
+  width: 277.76px;
+  margin-top: -1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 300;
+  color: #bdbdbd;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+
+.photo-gallery .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  font-weight: 700;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 64px;
+  font-family: "Roboto", Helvetica;
+  color: var(--gray-1);
+  white-space: nowrap;
+}
+
+.photo-gallery .rectangle-3 {
+  position: absolute;
+  width: 1170px;
+  height: 1px;
+  top: 323px;
+  left: 135px;
+  background-color: var(--gray-6);
+}
+
+.photo-gallery .rectangle-4 {
+  position: absolute;
+  width: 210px;
+  height: 260px;
+  top: 354px;
+  left: 135px;
+  background-color: #c4c4c4;
+}
+
+.photo-gallery .rectangle-5 {
+  position: absolute;
+  width: 210px;
+  height: 260px;
+  top: 354px;
+  left: 375px;
+}
+
+.photo-gallery .rectangle-6 {
+  position: absolute;
+  width: 210px;
+  height: 260px;
+  top: 354px;
+  left: 615px;
+}
+
+.photo-gallery .rectangle-7 {
+  position: absolute;
+  width: 210px;
+  height: 260px;
+  top: 354px;
+  left: 855px;
+}
+
+.photo-gallery .rectangle-8 {
+  position: absolute;
+  width: 210px;
+  height: 260px;
+  top: 354px;
+  left: 1095px;
+}
+
+.photo-gallery .rectangle-9 {
+  position: absolute;
+  width: 210px;
+  height: 260px;
+  top: 644px;
+  left: 135px;
+}
+
+.photo-gallery .rectangle-10 {
+  position: absolute;
+  width: 210px;
+  height: 260px;
+  top: 644px;
+  left: 375px;
+}
+
+.photo-gallery .rectangle-11 {
+  position: absolute;
+  width: 210px;
+  height: 260px;
+  top: 644px;
+  left: 615px;
+}
+
+.photo-gallery .rectangle-12 {
+  position: absolute;
+  width: 210px;
+  height: 260px;
+  top: 644px;
+  left: 855px;
+}
+
+.photo-gallery .rectangle-13 {
+  position: absolute;
+  width: 210px;
+  height: 260px;
+  top: 644px;
+  left: 1095px;
+}
+
+.photo-gallery .group-wrapper {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  top: 964px;
+  left: 380px;
+}
+
+.photo-gallery .arrow-right-long-wrapper {
+  position: relative;
+  height: 53px;
+  background-color: #f8f8f8;
+  border: 1px solid;
+  border-color: #f2f2f2;
+}
+
+.photo-gallery .arrow-right-long {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 14px;
+  left: 14px;
+}
+
+.photo-gallery .div-wrapper {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  top: 964px;
+  left: 304px;
+}
+
+.photo-gallery .img-wrapper {
+  position: relative;
+  height: 53px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #f2f2f2;
+}
+
+.photo-gallery .slide-numbers {
+  position: absolute;
+  width: 144px;
+  height: 52px;
+  top: 975px;
+  left: 135px;
+}
+
+.photo-gallery .text-wrapper-12 {
+  position: absolute;
+  width: 24px;
+  top: 4px;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #333333;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.photo-gallery .text-wrapper-13 {
+  position: absolute;
+  top: 4px;
+  left: 113px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: var(--gray-4);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.photo-gallery .line-2 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 50px;
+}
